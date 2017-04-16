@@ -1,3 +1,8 @@
+# build:
+#   docker build --force-rm=true -f Dockerfile -t subicura/sample_result:1 .
+# run:
+#   docker run --rm -p 3000:80 subicura/sample_result:1
+
 FROM node:5.11.0-slim
 
 WORKDIR /app

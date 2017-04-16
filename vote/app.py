@@ -4,6 +4,10 @@ import os
 import socket
 import random
 import json
+import sys
+
+reload(sys)
+sys.setdefaultencoding("utf-8")
 
 option_a = os.getenv('OPTION_A', "Cats")
 option_b = os.getenv('OPTION_B', "Dogs")
